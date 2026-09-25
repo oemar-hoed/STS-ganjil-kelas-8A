@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sumatif Tengah Semester Matematika Kelas 8</title>
+    <title>Sumatif Tengah Semester Matematika Kelas 8A</title>
     
     <!-- Library MathJax untuk Rumus Matematika LaTeX -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -87,7 +87,7 @@
     <!-- HALAMAN LOGIN -->
     <div id="login-page" class="container">
         <div class="card">
-            <h2 style="text-align: center;">Sumatif Tengah Semester Matematika Kelas 8</h2>
+            <h2 style="text-align: center;">Sumatif Tengah Semester Matematika Kelas 8A</h2>
             <p style="text-align: center; color: #666;">Silakan isi identitas Anda untuk memulai ujian.</p>
             <div class="form-group">
                 <label>Nama Lengkap</label>
@@ -95,11 +95,11 @@
             </div>
             <div class="form-group">
                 <label>Kelas</label>
-                <input type="text" id="siswa-kelas" placeholder="Misal: 8C" required>
+                <input type="text" id="siswa-kelas" placeholder="Misal: 8A" required>
             </div>
             <div class="form-group">
                 <label>No. Absen</label>
-                <input type="number" id="siswa-absen" placeholder="Misal: 12" required>
+                <input type="number" id="siswa-absen" placeholder="Misal: 01" required>
             </div>
             <button onclick="mulaiUjian()" style="width: 100%; margin-top: 15px;">Mulai Sumatif</button>
         </div>
@@ -178,7 +178,7 @@
         
         // Timer Ujian
         let timerInterval;
-        let waktuUjian = 3601; // <<--- PENTING: Saat ini diset 10 detik untuk testing. Ganti ke 3600 untuk 1 jam!
+        let waktuUjian = 3611; // <<--- PENTING: Saat ini diset 10 detik untuk testing. Ganti ke 3600 untuk 1 jam!
         
         // Konstanta Nilai 
         const SKOR_PG = 3;
